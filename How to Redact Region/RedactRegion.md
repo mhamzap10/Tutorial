@@ -120,7 +120,7 @@ For .NET / C# developers, there is a [client-side library](https://ironsoftware.
 
 ### Invalid credentials provided for PDF:
 Ensure that the correct user and owner passwords are provided. If the PDF is not password-protected, these parameters should be omitted.
-### Failed to redact the PDF: 403 Forbidden:
+### Failed to redact the PDF: 400 Bad Request:
 This error occurs when the user or owner password provided does not match the PDF's security settings. Double-check the passwords and try again.
 ### Region Coordinates Out of Bounds:
 Ensure that the coordinates for the redaction regions are within the bounds of the document. If the coordinates are out of range, the API will return an error.
